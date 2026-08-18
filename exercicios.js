@@ -38,7 +38,6 @@ const celsius = 30;
 console.log(celsius * 9/5 + 32);
 
 
-*/
 // EXERCÍCIO 3 - Par ou ímpar
 // Crie uma variável com um número.
 // Mostre no console se ele é par ou ímpar.
@@ -49,7 +48,7 @@ console.log(celsius * 9/5 + 32);
 const numero = 12;
 
 if (numero % 2 === 0) {
-  console.log("O número 12 é par.");
+    console.log("O número 12 é par.");
 } else {
   console.log("O número 12 é ímpar.");
 }
@@ -60,10 +59,20 @@ if (numero % 2 === 0) {
 // Se a média for >= 7, mostre "Aprovado".
 // Se não, mostre "Reprovado".
 // ------------------------------------------------------------
+const nota1 = 10
+const nota2 = 7
+const nota3 = 9
 
+let media = (nota1 + nota2 + nota3) / 3
 
+console.log(media)
+if (media >= 7){
+    console.log("Aprovado")
+}else{
+    console.log("Reprovado")
+}
 
-
+*/
 // ============================================================
 //  BLOCO 2 - CONDICIONAIS (if/else, switch)
 // ============================================================
