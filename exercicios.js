@@ -19,20 +19,24 @@
 // Crie 2 variáveis com números e mostre no console
 // o resultado da soma, subtração, multiplicação e divisão.
 // ------------------------------------------------------------
+/*
 
 const numero1 = 9;
 const numero2 = 10;
-console.log(numero1 + numero2)
-console.log(numero1 - numero2)
-console.log(numero1 * numero2)
-console.log(numero1 / numero2)
+console.log(numero1 + numero2);
+console.log(numero1 - numero2);
+console.log(numero1 * numero2);
+console.log(numero1 / numero2);
 
-
+*/
 // EXERCÍCIO 2 - Conversor de temperatura
 // Crie uma variável com um valor em Celsius.
 // Converta para Fahrenheit e mostre no console.
 // Fórmula: F = C * 9/5 + 32
 // ------------------------------------------------------------
+
+const celsius = 30;
+console.log(celsius * 9/5 + 32);
 
 
 // EXERCÍCIO 3 - Par ou ímpar
