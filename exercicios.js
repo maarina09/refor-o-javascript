@@ -28,7 +28,6 @@ console.log(numero1 - numero2);
 console.log(numero1 * numero2);
 console.log(numero1 / numero2);
 
-*/
 // EXERCÍCIO 2 - Conversor de temperatura
 // Crie uma variável com um valor em Celsius.
 // Converta para Fahrenheit e mostre no console.
@@ -39,6 +38,7 @@ const celsius = 30;
 console.log(celsius * 9/5 + 32);
 
 
+*/
 // EXERCÍCIO 3 - Par ou ímpar
 // Crie uma variável com um número.
 // Mostre no console se ele é par ou ímpar.
@@ -46,8 +46,13 @@ console.log(celsius * 9/5 + 32);
 // Se numero % 2 === 0, é par.
 // ------------------------------------------------------------
 
+const numero = 12;
 
-
+if (numero % 2 === 0) {
+  console.log("O número 12 é par.");
+} else {
+  console.log("O número 12 é ímpar.");
+}
 
 // EXERCÍCIO 4 - Média de notas
 // Crie 3 variáveis com notas (de 0 a 10).
