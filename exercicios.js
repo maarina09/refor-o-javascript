@@ -84,7 +84,12 @@ if (media >= 7){
 // Se não, mostre "Menor de idade".
 // ------------------------------------------------------------
 
-
+const idade = 23
+if (idade >= 18){
+    console.log("Maior de idade")
+}else{
+    console.log("Menor de idade")
+}
 
 
 // EXERCÍCIO 6 - Calculadora de IMC
